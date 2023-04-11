@@ -29,13 +29,14 @@ body {
 
 
 header {
-    width: 820px;	/* reduced by 20px to accommodate shadow */
+    width: 850px;
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
-    border: 1px solid #888888;
-    box-shadow: 15px 15px 5px 0 #888888;
-    border-radius: 25px;  	
+    border: 1px solid #05005b;
+    box-shadow: 15px 15px 15px 15px #05005b;
+    border-radius: 25px;
+    background-color: #05005b;	
 }
 
 nav {
@@ -139,10 +140,14 @@ footer a:link {
 
 footer a:visited {
     color: navy;
-    background-color: grey;
+    background-color: gray;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+}
+
+img.class {
+	border-radius: 25px;
 }
