@@ -18,6 +18,7 @@ body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
+	background-image: url(planeneon.jpg);
 }
 
 #container {
@@ -25,6 +26,7 @@ body {
     border-width: 1px;
     margin: 0 auto;
     background-color: white;
+	background-image: url(planeneon.jpg);
 }
 
 
@@ -36,7 +38,59 @@ header {
     border: 1px solid #05005b;
     box-shadow: 15px 15px 15px 15px #05005b;
     border-radius: 25px;
-    background-color: #05005b;	
+    background-color: #05005b;
+	
+	
+}
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgba(255,255,255,0.8);
+  
 }
 
 nav {
@@ -46,11 +100,13 @@ nav {
     float: left;
     text-align: center;
 	color: red;
+	background-image: url(planeneon.jpg);
 }
 
 nav ul {
     font-weight: bold;
     list-style: none;
+	background-color: white;
 }
 
 nav ul li a {
@@ -58,6 +114,7 @@ nav ul li a {
     color: gray;
     text-decoration: none;
     display:block;
+		
 }
 
 nav ul li a:hover {
@@ -72,12 +129,13 @@ nav ul li a:hover {
     float: left;
     color: black;
     border-left: 2px solid;
-    border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    border-right: 2px solid;  
+	background-color: white;
 }
 
 #main p {
     text-indent: 1.5em;
+	background-color: white;
 }
 
 figure{
@@ -94,23 +152,27 @@ aside {
     margin: 0 5px 0 5px;
     padding: 10px;
     float: right;
+	background-color: white;
 }
 
 aside p {
     font-style: italic;
     font-size: 0.9em;
+	background-color: white;
 }
 
 h2 {
     font-size: 1.4em;
     text-align: center;
     padding-bottom: 0.5em;
+	background-color: white;
 }
 
 h3 {
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+	background-color: white;
 	
 }
 
@@ -150,4 +212,8 @@ footer a:hover {
 
 img.class {
 	border-radius: 25px;
+}
+
+table, th, td {
+  border:1px solid black;
 }
